@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 66px;
+}
+.col{
+    margin: 10px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.card{
+    margin: 10px;
+    align-items: space-between;
+    margin-left: 20px;
+    
+}
+.card:hover{
+    border: 3px 3px 3px 3px black;
+    box-shadow: 3px 3px 3px 3px black; ;
+}
+h1:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+img:hover{
+    border: 3px 3px 3px 3px black;
+}
